@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/js-calculator-freecodecamp/static/css/main.5430ecef.chunk.css",
+    "main.js": "/js-calculator-freecodecamp/static/js/main.37eeed65.chunk.js",
+    "main.js.map": "/js-calculator-freecodecamp/static/js/main.37eeed65.chunk.js.map",
+    "runtime-main.js": "/js-calculator-freecodecamp/static/js/runtime-main.ccc00a4e.js",
+    "runtime-main.js.map": "/js-calculator-freecodecamp/static/js/runtime-main.ccc00a4e.js.map",
+    "static/js/2.4e1e5146.chunk.js": "/js-calculator-freecodecamp/static/js/2.4e1e5146.chunk.js",
+    "static/js/2.4e1e5146.chunk.js.map": "/js-calculator-freecodecamp/static/js/2.4e1e5146.chunk.js.map",
+    "static/js/3.4f3301ef.chunk.js": "/js-calculator-freecodecamp/static/js/3.4f3301ef.chunk.js",
+    "static/js/3.4f3301ef.chunk.js.map": "/js-calculator-freecodecamp/static/js/3.4f3301ef.chunk.js.map",
+    "index.html": "/js-calculator-freecodecamp/index.html",
+    "static/css/main.5430ecef.chunk.css.map": "/js-calculator-freecodecamp/static/css/main.5430ecef.chunk.css.map",
+    "static/js/2.4e1e5146.chunk.js.LICENSE.txt": "/js-calculator-freecodecamp/static/js/2.4e1e5146.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccc00a4e.js",
+    "static/js/2.4e1e5146.chunk.js",
+    "static/css/main.5430ecef.chunk.css",
+    "static/js/main.37eeed65.chunk.js"
+  ]
+}
