@@ -1,0 +1,151 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #00ff88;
+  overflow-y: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.calculator {
+  display: grid;
+  grid-template-areas:
+    'display display display display'
+    'ac ac del divide'
+    'seven  eight nine times'
+    'four five six minus'
+    'one two three plus'
+    'decimal zero equal plus';
+
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: 1fr repeat(5, 80px);
+  grid-gap: 1px;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  user-select: none;
+}
+
+.calculator > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+#display {
+  grid-area: display;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  display: block;
+  overflow-wrap: break-word;
+  text-align: right;
+}
+
+#minus {
+  grid-area: minus;
+}
+
+#one {
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
+}
+
+#three {
+  grid-area: three;
+}
+
+#four {
+  grid-area: four;
+}
+
+#five {
+  grid-area: five;
+}
+#six {
+  grid-area: six;
+}
+
+#seven {
+  grid-area: seven;
+}
+
+#eight {
+  grid-area: eight;
+}
+
+#nine {
+  grid-area: nine;
+}
+
+#decimal {
+  grid-area: decimal;
+}
+
+#zero {
+  grid-area: zero;
+}
+
+#equals {
+  grid-area: equal;
+  background-color: #7700ff;
+  color: white;
+}
+
+#add {
+  grid-area: plus;
+}
+
+#subtract {
+  grid-area: minus;
+}
+
+#multiply {
+  grid-area: times;
+}
+
+#divide {
+  grid-area: divide;
+}
+
+#clear {
+  grid-area: ac;
+  background-color: #ff0055;
+  color: white;
+}
+
+#del {
+  grid-area: del;
+  background-color: #ff6655;
+  color: white;
+}
+
+div.operation {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+div.number:hover {
+  background-color: #efefef;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
